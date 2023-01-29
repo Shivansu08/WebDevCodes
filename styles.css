@@ -1,0 +1,36 @@
+body {
+    background-color: #e0ebe8;
+}
+
+hr {
+    background-color: #e0ebe8;
+    border-style: dotted none none;
+    /* When one value is specified, it applies the same style to all four sides.
+    When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+    When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+    When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise).
+    */
+    /* height: 2px; */
+    /* width: 100px;*/
+    width: 10%;
+    /* Here, % is used if we want tomake compatible for all screens. */
+    border-color: grey;
+    border-width: 5px;
+}
+
+h1 {
+    color: #1e836c;
+}
+
+h3 {
+    color: #45b29a;
+}
+
+a {
+    color: #45b29a;
+}
+
+
+/* img {
+    height: 200px;
+} */
