@@ -1,2 +1,7 @@
 inline elements include a , span, img tags.
 we can't change width of inline elements but we can do in block elements.
+
+L-49
+
+text alignment: it is used in parent element.
+text align: center;
