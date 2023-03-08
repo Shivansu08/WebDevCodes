@@ -1,0 +1,43 @@
+/* These are of format Selectors{property:value;} */
+
+h1 {
+    color: red;
+    font-size: 80px;
+}
+
+img:hover {
+    background-color: blueviolet;
+}
+
+
+/* img {
+    background-color: red;
+} */
+
+
+/*-----Class selectors------*/
+
+.pizza {
+    background-color: green;
+}
+
+.burger {
+    background-color: red;
+}
+
+.snacks {
+    border-radius: 25%;
+}
+
+
+/*-----Id selectors------*/
+
+#heading {
+    color: blue;
+}
+
+
+/* Selectors overrule tags */
+
+
+/* Id is applied to single element (unique to particular element) but class can be applied to multiple elements */
