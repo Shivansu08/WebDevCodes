@@ -5,3 +5,6 @@ L-49
 
 text alignment: it is used in parent element.
 text align: center;
+Or use margin i.e,
+for horizontal center alignment
+margin :0 auto 0 auto; //top left bottom right. 
