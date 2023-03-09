@@ -9,24 +9,38 @@ h1 {
 
 .top-container {
     background-color: #e0ebe8;
-    width: 200px;
+    /* width: 200px;
     height: 200px;
     border: solid 10px;
-    padding: 20px;
+    padding: 20px; */
+    position: relative;
+    padding: 50px;
 }
 
 .middle-container {
     background-color: red;
     width: 200px;
     height: 200px;
-    margin-left: 260px;
-    border: solid 20px;
+    /* margin-left: 260px;
+    border: solid 20px; */
 }
 
 .bottom-container {
     background-color: yellow;
     width: 200px;
     height: 200px;
-    margin-left: 500px;
-    border: solid 10px;
+    /* margin-left: 500px;
+    border: solid 10px; */
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 500px;
+    top: 100px;
 }
