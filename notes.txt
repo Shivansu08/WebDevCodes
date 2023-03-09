@@ -12,3 +12,5 @@ margin :0 auto 0 auto; //top left bottom right.
 L-50
 
 font family--> serif and sans serif etc..
+* embedded font ---> i.e, to put a familiar font in body or parent element. Also put individual font family in each element.
+note: in google font , put link in html.
