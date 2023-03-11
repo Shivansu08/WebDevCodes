@@ -14,3 +14,8 @@ L-50
 font family--> serif and sans serif etc..
 * embedded font ---> i.e, to put a familiar font in body or parent element. Also put individual font family in each element.
 note: in google font , put link in HTML.
+
+L-53
+
+font-size can be in px,%,em.
+100% = 16px = 1em.

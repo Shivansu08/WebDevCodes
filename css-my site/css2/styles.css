@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+    font-size: 400%;
     margin-top: 0px;
     font-family: 'Sacramento', cursive;
 }
@@ -40,12 +41,12 @@ p {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 23%;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 100px;
+    right: 23%;
+    top: 30%;
 }
