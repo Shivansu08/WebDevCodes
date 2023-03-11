@@ -24,16 +24,16 @@ p {
 }
 
 .middle-container {
-    background-color: red;
-    height: 200px;
+    /* background-color: red; */
+    /* height: 200px; */
     /* margin-left: 260px;
     border: solid 20px; */
 }
 
 .bottom-container {
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
+    /* background-color: yellow; */
+    /* width: 200px; */
+    /* height: 200px; */
     /* margin-left: 500px;
     border: solid 10px; */
 }
