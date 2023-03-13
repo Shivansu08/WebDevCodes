@@ -5,12 +5,14 @@ body {
 }
 
 h1 {
-    font-size: 400%;
-    margin-top: 0px;
+    /* font-size: 400%; */
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
 }
 
-p {
+h2 {
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -47,6 +49,6 @@ p {
 
 .top-cloud {
     position: absolute;
-    right: 23%;
-    top: 30%;
+    right: 15%;
+    top: 6%;
 }

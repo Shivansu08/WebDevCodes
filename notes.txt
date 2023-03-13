@@ -19,3 +19,5 @@ L-53
 
 font-size can be in px,%,em.
 100% = 16px = 1em.
+note if we put font size 200% or 2em in body and again we put font size in h1(lets say of 300% or 3em) then it will finally increase font size of h1 on top of 2em i.e, firstly it increased 2em then again 3em.
+So, to avoid it using em we can put '3rem' (instead of 3em) in h1 font size so it will take 3em in consideration only.
