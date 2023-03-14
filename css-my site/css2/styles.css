@@ -67,3 +67,22 @@ h3 {
     text-align: left;
     line-height: 2;
 }
+
+.dev-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img {
+    float: right;
+    margin-left: 30px;
+}
+
+
+/* .dev-description {
+    clear: left;
+}
+
+.code-description {
+    clear: right;
+} */

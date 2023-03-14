@@ -39,3 +39,13 @@ L-56
 
 line-height
 The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.
+
+L-58
+
+float:-->The float property specifies whether an element should float to the left, right, or not at all.
+float: left OR right OR none(default);
+NOTE: to remove some text from wrapping around floating image we can use clear
+i.e, clear:left //to clear wrapping on left side of text.
+and clear:right //to clear wrapping on right side of text.
+
+Note: DON'T use float property for positioning rather use it only for wrapping text around image.
