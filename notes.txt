@@ -49,3 +49,12 @@ i.e, clear:left //to clear wrapping on left side of text.
 and clear:right //to clear wrapping on right side of text.
 
 Note: DON'T use float property for positioning rather use it only for wrapping text around image.
+
+L-59
+
+* to add dotted line instead of straight line use given code:
+hr {
+    border: none;
+    border-top: 5px dotted #AEC2B6;
+    width: 5%;
+}
