@@ -54,7 +54,7 @@ L-59
 
 * to add dotted line instead of straight line use given code:
 hr {
-    border: none;
-    border-top: 5px dotted #AEC2B6;
+    border: dotted #AEC2B6 5px;
+    border-bottom: none;
     width: 5%;
 }

@@ -2,6 +2,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
 h1 {
@@ -22,6 +23,11 @@ h2 {
 
 h3 {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
 }
 
 .top-container {
@@ -44,15 +50,17 @@ h3 {
 
 .detail {
     width: 40%;
-    margin: 0px auto 0px auto;
+    margin: 45px auto 45px auto;
 }
 
 .bottom-container {
-    /* background-color: yellow; */
+    background-color: #c5ded7;
     /* width: 200px; */
     /* height: 200px; */
     /* margin-left: 500px;
     border: solid 10px; */
+    margin-top: 80px;
+    padding: 40px 0px 30px 0px;
 }
 
 .bottom-cloud {
@@ -93,9 +101,54 @@ h3 {
     clear: right;
 } */
 
-.dotted-line {
-    border: none;
-    border-top: 5px dotted #AEC2B6;
+hr {
+    border: dotted #AEC2B6 5px;
+    border-bottom: none;
     width: 5%;
     margin: 80px auto 80px auto;
+}
+
+.btn {
+    background: #9eebd5;
+    background-image: -webkit-linear-gradient(top, #9eebd5, #4ab19a);
+    background-image: -moz-linear-gradient(top, #9eebd5, #4ab19a);
+    background-image: -ms-linear-gradient(top, #9eebd5, #4ab19a);
+    background-image: -o-linear-gradient(top, #9eebd5, #4ab19a);
+    background-image: linear-gradient(to bottom, #9eebd5, #4ab19a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    margin: auto 30px auto 30px;
+    color: #11999E;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #EAF6F6;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
