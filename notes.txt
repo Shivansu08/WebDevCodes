@@ -58,3 +58,6 @@ hr {
     border-bottom: none;
     width: 5%;
 }
+
+### BOOTSTRAP ###
+* Use width: ; to reduce size of image or of box.
