@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -23,6 +23,12 @@ h2 {
     font-family: "Montserrat-Bold";
     font-size: 2.5rem;
     line-height: 3.5rem;
+}
+
+h3 {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
 }
 
 .navbar {
@@ -48,13 +54,22 @@ h2 {
     margin: 5% 3% 5% 0;
 }
 
+i {
+    padding-right: 8px;
+}
+
 .title-image {
-    width: 50%;
+    width: 15%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;      no use as in HTML flow feature section is below title image.so it will automatically come above.*/
 }
 
 .feature-box {
@@ -106,4 +121,13 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 20px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloumn {
+    padding-top: 3% 2%;
 }

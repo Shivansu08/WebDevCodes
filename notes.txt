@@ -50,6 +50,11 @@ and clear:right //to clear wrapping on right side of text.
 
 Note: DON'T use float property for positioning rather use it only for wrapping text around image.
 
+{
+    position: absolute---> takes the element out of flow and shifts it according to parent element.
+    position: relative---> keeps the element in the flow and shifts in relative to its previous position.
+}
+
 L-59
 
 * to add dotted line instead of straight line use given code:
@@ -61,3 +66,6 @@ hr {
 
 ### BOOTSTRAP ###
 * Use width: ; to reduce size of image or of box.
+
+L-83
+Note: z-index only works if we define position of element(except position static);
