@@ -26,7 +26,8 @@ h2 {
 }
 
 h3 {
-    font-family: "Ubuntu";
+    font-family: "Montserrat-Black";
+    font-weight: 900;
     font-size: 2.5rem;
     line-height: 2.5rem;
 }
@@ -130,4 +131,37 @@ i {
 
 .pricing-coloumn {
     padding-top: 3% 2%;
+}
+
+@media (max-width: 1048px) {
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 5% 3% 3%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    margin: 5%;
+}
+
+.copy {
+    margin-top: 2%;
+    color: #B4A5A5;
+}
+
+.footer-icon {
+    padding: 0.5%;
 }
