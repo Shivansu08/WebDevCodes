@@ -69,3 +69,57 @@ hr {
 
 L-83
 Note: z-index only works if we define position of element(except position static);
+
+L-89
+div h1 { color: red;}  // it applies style color red to all h1 but only inside div container. i.e, not for those h1 that are outside div.
+
+Or    // here (with space in between) read from right to left.
+
+.container-fluid h1{ color: red;}   // it applies style color red to all h1 but only inside class container-fluid.
+
+But 
+
+h1#title{ color: red;}   // it makes color red of h1 with id title. NOTE(it has no space in between)
+
+OR    // here (with no space) read from left to right
+
+div.container-fluid{color:red;}
+
+L-91
+
+Pirority: title > class > html tag
+also  internal css(style) > external css (but still prefer external css)
+
+Note: use less id's and only use for navigation.
+
+L-"Section-9 JS"
+
+alert("message");
+var a=prompt(""message"); // takes input;
+
+L-109
+
+var l=message.length;
+
+L-110
+
+message.slice(x,y); // it slices from x to y not including y.
+
+.toUpperCase();
+.toLowerCase();
+
+L-127
+
+a===b  // also considers data type of a and b.
+but
+a==b   //does not considers data type of a and b.
+
+L-130
+
+array.includes(5);   // checks whether the given element is present in given array.   returns boolean.
+
+
+L-132
+
+array.push(3);  // adds an element in given array.
+array.pop(3);   // removes given element from given array.
