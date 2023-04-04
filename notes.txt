@@ -70,6 +70,7 @@ hr {
 L-83
 Note: z-index only works if we define position of element(except position static);
 
+
 L-89
 div h1 { color: red;}  // it applies style color red to all h1 but only inside div container. i.e, not for those h1 that are outside div.
 
@@ -79,11 +80,12 @@ Or    // here (with space in between) read from right to left.
 
 But 
 
-h1#title{ color: red;}   // it makes color red of h1 with id title. NOTE(it has no space in between)
+h1#title{ color: red;}   // it makes color red of h1 with id title. NOTE::(it has no space in between)
 
 OR    // here (with no space) read from left to right
 
 div.container-fluid{color:red;}
+
 
 L-91
 
@@ -123,3 +125,8 @@ L-132
 
 array.push(3);  // adds an element in given array.
 array.pop(3);   // removes given element from given array.
+
+L-142
+
+Dom tree , .firstElementChild , .lastElementChild , .previousElementSibling , .nextElementSibling 
+
