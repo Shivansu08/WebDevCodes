@@ -118,6 +118,7 @@ a==b   //does not considers data type of a and b.
 
 L-130
 
+arrary initialization:   var arr=[];
 array.includes(5);   // checks whether the given element is present in given array.   returns boolean.
 
 
@@ -140,3 +141,12 @@ L-146
 
 document.querySelector("h1").innerHTML;   // here, innerHTML gives everything inside h1 tag (i.e, if there another tag inside h1 eg, <h1> <strong> Hello </strong> </h1>    o/p:- <strong> Hello </strong>)
 document.querySelector("h1").textContent;  // here, textContent gives only text while ignoring any tags.
+
+L-147
+
+<a href="https://www.google.com">Google</a>
+here, href="https://www.google.com" is attribute.
+
+document.querySelector("a").attributes;  // gives attributes attached to tag a;
+document.querySelector("a").getAttribute("href);   // gives href link regarding that attribute
+document.querySelector("a").setAttribute("href","another link");  // changes href link to another link provided.
