@@ -130,3 +130,13 @@ L-142
 
 Dom tree , .firstElementChild , .lastElementChild , .previousElementSibling , .nextElementSibling 
 
+L-145
+
+document.querySelector("button").classList.add("invisible");    // invisible class is created and we can add css properties in style.css inside invisible class. But the control to apply this invisible class is with js.
+document.querySelector("button").classList.remove("invisible");    // invisible class is created and we can remove css properties in style.css inside invisible class. But the control to apply this invisible class is with js.
+document.querySelector("button").classList.toggle("invisible");    // invisible class is created and we can (add if button not present OR remove button if present) css properties in style.css inside invisible class. But the control to apply this invisible class is with js.
+
+L-146
+
+document.querySelector("h1").innerHTML;   // here, innerHTML gives everything inside h1 tag (i.e, if there another tag inside h1 eg, <h1> <strong> Hello </strong> </h1>    o/p:- <strong> Hello </strong>)
+document.querySelector("h1").textContent;  // here, textContent gives only text while ignoring any tags.
