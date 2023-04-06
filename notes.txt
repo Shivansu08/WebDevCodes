@@ -150,3 +150,35 @@ here, href="https://www.google.com" is attribute.
 document.querySelector("a").attributes;  // gives attributes attached to tag a;
 document.querySelector("a").getAttribute("href);   // gives href link regarding that attribute
 document.querySelector("a").setAttribute("href","another link");  // changes href link to another link provided.
+
+L-162
+
+Assume:: abc as function .
+
+document.querySelector("button").addEventListener("click",abc);   // it calls button to perform actions from function abc when it(button) is clicked.
+Note: DON'T USE:: document.querySelector("button").addEventListener("click",abc());   // if we use paranthesis after function then it will call function before performing click or other prescribed actions.
+
+Or Simply "USE" ::  document.querySelector("button").addEventListener("click",function() {
+        alert("I got clicked");
+    }):
+
+L-165
+
+Learn about this keyword .....
+
+L-166
+
+Constructor Function eg,
+
+function houseKeeper (name , age, languages){
+    this.name=name;
+    this.age=age;
+    this.languages=languages;
+}
+i/p:
+var houseKeeper1= new houseKeeper("Jimmy","28","Hindi");
+var houseKeeper2=new houseKeeper("Robin","34","Bhojpuri");
+
+L-167
+
+Learn about Switch....
