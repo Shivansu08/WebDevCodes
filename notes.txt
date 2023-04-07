@@ -182,3 +182,19 @@ var houseKeeper2=new houseKeeper("Robin","34","Bhojpuri");
 L-167
 
 Learn about Switch....
+
+L-170 ,171
+
+Example:--
+document.addEventListener("keydown", function(event) {
+    makeSound(event.key);
+});
+// it means search in whole document for an event of keydown(i.e,pressing of any key). And event (we can also use evt or any other variable for function input) contains the details of keydown i.e, for example "key" parameter stores which key is pressed from keyboard and simialrly it contains other parameters store other info.
+so event.key gives me the letter which is pressed.
+
+Note we can also write::
+
+document.addEventListener("keydown", function(e) {
+    makeSound(e.key);
+});  // any variablefor function input.
+
