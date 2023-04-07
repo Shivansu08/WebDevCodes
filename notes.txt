@@ -198,3 +198,10 @@ document.addEventListener("keydown", function(e) {
     makeSound(e.key);
 });  // any variablefor function input.
 
+L-172
+Creaing a set time out function
+setTimeout(function() {
+        buttonClass.classList.remove("pressed");
+    }, 100);
+
+// it operates the provided function with delay of provided time in milliseconds.
