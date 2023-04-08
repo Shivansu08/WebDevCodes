@@ -122,14 +122,22 @@ arrary initialization:   var arr=[];
 array.includes(5);   // checks whether the given element is present in given array.   returns boolean.
 
 
+
+
 L-132
 
 array.push(3);  // adds an element in given array.
 array.pop(3);   // removes given element from given array.
 
+
+
+
 L-142
 
 Dom tree , .firstElementChild , .lastElementChild , .previousElementSibling , .nextElementSibling 
+
+
+
 
 L-145
 
@@ -137,10 +145,16 @@ document.querySelector("button").classList.add("invisible");    // invisible cla
 document.querySelector("button").classList.remove("invisible");    // invisible class is created and we can remove css properties in style.css inside invisible class. But the control to apply this invisible class is with js.
 document.querySelector("button").classList.toggle("invisible");    // invisible class is created and we can (add if button not present OR remove button if present) css properties in style.css inside invisible class. But the control to apply this invisible class is with js.
 
+
+
+
 L-146
 
 document.querySelector("h1").innerHTML;   // here, innerHTML gives everything inside h1 tag (i.e, if there another tag inside h1 eg, <h1> <strong> Hello </strong> </h1>    o/p:- <strong> Hello </strong>)
 document.querySelector("h1").textContent;  // here, textContent gives only text while ignoring any tags.
+
+
+
 
 L-147
 
@@ -150,6 +164,9 @@ here, href="https://www.google.com" is attribute.
 document.querySelector("a").attributes;  // gives attributes attached to tag a;
 document.querySelector("a").getAttribute("href);   // gives href link regarding that attribute
 document.querySelector("a").setAttribute("href","another link");  // changes href link to another link provided.
+
+
+
 
 L-162
 
@@ -162,9 +179,13 @@ Or Simply "USE" ::  document.querySelector("button").addEventListener("click",fu
         alert("I got clicked");
     }):
 
+
+
 L-165
 
 Learn about this keyword .....
+
+
 
 L-166
 
@@ -179,9 +200,14 @@ i/p:
 var houseKeeper1= new houseKeeper("Jimmy","28","Hindi");
 var houseKeeper2=new houseKeeper("Robin","34","Bhojpuri");
 
+
+
 L-167
 
 Learn about Switch....
+
+
+
 
 L-170 ,171
 
@@ -198,6 +224,8 @@ document.addEventListener("keydown", function(e) {
     makeSound(e.key);
 });  // any variablefor function input.
 
+
+
 L-172
 Creaing a set time out function
 setTimeout(function() {
@@ -205,3 +233,72 @@ setTimeout(function() {
     }, 100);
 
 // it operates the provided function with delay of provided time in milliseconds.
+
+
+
+L-179
+
+console.log($("h1").css("font-size"));   // it gives the value of font-size of h1 element.
+But 
+console.log($("h1").css("font-size","30px"));   // it changes the value of font-size of h1 element to 30 px.
+
+*** Add/remove class using JS.....
+
+$("h1").addClass("abc");   // abc is class having css properties.
+Adding multiple classes
+$("h1").addClass("abc pqr xyz");
+Also,
+$("h1").removeClass("abc");
+
+TO check whether an element has certain class or not use...
+$("h1").hasClass("abc");    //returns true or false.
+
+
+L-180
+
+$("h1").text("abc");   //changes text of h1 to abc.
+But
+$("h1").html("<strong>abc</strong>");   //changes text of h1 to abc but including strong tag property.
+
+
+
+L-181
+
+console.log($("a").attr("href"));   //returns value of attribute href in a tag.
+But 
+console.log($("a").attr("href","https://google.com"));   //set attributeto google.com
+
+Note--- class is also an attribute.
+
+
+
+L-182
+
+jQuery code for Event Listener
+
+$("h1").click(function(){
+    //perform actions.
+});
+
+Genralizing for event performing...using on....
+
+$("h1").on("mouseover",function(){
+    //perform actions.
+});
+
+
+
+L-183
+
+before(),after(),prepend(),append()  
+
+//before(action) adds action before (outside) h1 tag.
+//after(action) adds action after (outside) h1 tag.
+//prepend(action) adds action before (but inside) h1 tag.
+//append(action) adds action after (but inside) h1 tag.
+E.g,,
+$("h1").before(<button> New </button>);  //simialrly for all..
+
+To remove elements..
+$("button").remove();  //removes all button from current web page.
+
