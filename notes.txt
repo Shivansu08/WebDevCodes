@@ -215,7 +215,8 @@ Example:--
 document.addEventListener("keydown", function(event) {
     makeSound(event.key);
 });
-// it means search in whole document for an event of keydown(i.e,pressing of any key). And event (we can also use evt or any other variable for function input) contains the details of keydown i.e, for example "key" parameter stores which key is pressed from keyboard and simialrly it contains other parameters store other info.
+// it means search in whole document for an event of keydown(i.e,pressing of any key). And event (we can also use evt or any other variable for function input) contains the details of keydown i.e, for example "key" parameter stores which key is pressed from keyboard and keyCode stores value of character pressed and simialrly it contains other parameters store other info.
+
 so event.key gives me the letter which is pressed.
 
 Note we can also write::
@@ -301,4 +302,30 @@ $("h1").before(<button> New </button>);  //simialrly for all..
 
 To remove elements..
 $("button").remove();  //removes all button from current web page.
+
+
+
+L-184
+
+$("h1").hide();    // hides h1
+$("h1").show();    // show h1
+
+$("h1").toggle();    // if h1 hidden then show or vice-versa.
+
+// simialrly there is fadeOut , fadeIn , fadeToggle  used for relativily slow hiding or showing action. i.e, fading...!
+// simialrly there is slideOut , slideIn , slideToggle  used for sliding in hiding or showing action.
+eg $(selector).slideDown(speed,callback);
+The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milliseconds.
+The optional callback parameter is a function to be executed after the sliding completes.
+
+
+
+$("h1").animate(action);  // action can be properties with numeric value eg,  margin: 20%; or opacity:0.5 etc..
+eg, $("h1").animate({opacity:0.5});
+
+Now for multiple animations,..
+
+$("h1").slideUp().slideDown().animate({opacity:0.5});   //performs action on h1 in sequential order mentioned.
+
+//Learn more about jquery animations in documentations...;)
 
