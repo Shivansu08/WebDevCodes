@@ -329,3 +329,9 @@ $("h1").slideUp().slideDown().animate({opacity:0.5});   //performs action on h1 
 
 //Learn more about jquery animations in documentations...;)
 
+
+Node:
+node index.js  // use node to run this index.js file1
+npm init       // to initialize or install npm library
+npm install superheroes  // to install npm modules
+npm install express  // to install express
